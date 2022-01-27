@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Book</title>
+</head>
+<body>
+    <h1>Añadir Libros</h1>
+    <form action="/new-book" method="post">
+        <p>
+            <label for="title">Título: <br></label>
+            <input type="text" name="title" id="title">
+        </p>
+        <p>
+            <label for="author">Autor: <br></label>
+            <input type="text" name="author" id="author">
+        </p>
+        <p>
+            <label for="publisher">Editorial: <br></label>
+            <input type="text" name="publisher" id="publisher">
+        </p>
+        <p>
+            <label for="edition_year">Año de edición: <br></label>
+            <input type="number" name="edition_year" id="edition_year">
+        </p>
+        <p>
+            <label for="pages">Páginas: <br></label>
+            <input type="number" name="pages" id="pages">
+        </p>
+        <input type="submit">
+    </form>
+</body>
+</html>
